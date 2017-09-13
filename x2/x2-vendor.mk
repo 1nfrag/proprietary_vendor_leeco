@@ -380,9 +380,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
-    vendor/leeco/x2/proprietary/lib/libLetvAdSDK.so:system/lib/libLetvAdSDK.so \
-    vendor/leeco/x2/proprietary/lib/libLetvAdSDKSport.so:system/lib/libLetvAdSDKSport.so \
-    vendor/leeco/x2/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/leeco/x2/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/leeco/x2/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/leeco/x2/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
