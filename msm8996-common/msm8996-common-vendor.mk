@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/leeco/msm8996-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/leeco/msm8996-common/proprietary/bin/cnd:system/bin/cnd \
+    vendor/leeco/msm8996-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/leeco/msm8996-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/leeco/msm8996-common/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/leeco/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
@@ -96,15 +97,20 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/leeco/msm8996-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/leeco/msm8996-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/leeco/msm8996-common/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
+    vendor/leeco/msm8996-common/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/leeco/msm8996-common/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
+    vendor/leeco/msm8996-common/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
     vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
     vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
     vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
@@ -179,7 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -194,11 +199,13 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libqseed3.so:system/vendor/lib64/libqseed3.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
@@ -239,6 +246,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/test_suite_no_sensor.so:system/vendor/lib/test_suite_no_sensor.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/test_suite_pproc.so:system/vendor/lib/test_suite_pproc.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/test_suite_vfe.so:system/vendor/lib/test_suite_vfe.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -339,7 +348,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libprotobuf-cpp-lgcy.so:system/vendor/lib64/libprotobuf-cpp-lgcy.so \
@@ -355,6 +363,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqseed3.so:system/vendor/lib64/libqseed3.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
@@ -393,11 +402,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/leeco/msm8996-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libsdm-disp-apis \
+    libsdm-disp-vndapis \
+    libgpustats \
     libthermalclient \
     libtime_genoff \
     QtiTelephonyService \
@@ -416,6 +428,7 @@ PRODUCT_PACKAGES += \
     imssettings \
     qcnvitems \
     qcrilhook
+
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/iop:system/bin/iop \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
