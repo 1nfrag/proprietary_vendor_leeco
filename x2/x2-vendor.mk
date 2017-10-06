@@ -22,14 +22,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/set_wifi_mac:system/bin/set_wifi_mac \
     vendor/leeco/x2/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/x2/proprietary/bin/yepdiag:system/bin/yepdiag \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/MTP/workspaceFile.qwsp \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/workspaceFile.qwsp:system/vendor/etc/acdbdata/MTP/workspaceFile.qwsp \
     vendor/leeco/x2/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
     vendor/leeco/x2/proprietary/etc/ad_calib_x2.cfg:system/etc/ad_calib_x2.cfg \
     vendor/leeco/x2/proprietary/etc/batt_info_show_conf.xml:system/etc/batt_info_show_conf.xml \
