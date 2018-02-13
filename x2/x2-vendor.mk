@@ -439,3 +439,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
     vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so
+
+PRODUCT_PACKAGES += \
+    qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd \
+    qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt \
+    qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd
